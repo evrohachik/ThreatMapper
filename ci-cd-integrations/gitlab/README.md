@@ -11,8 +11,6 @@ via the project settings (i.e `Project > Settings > CI/CD > Variables`) page, be
 | Variable                       | Description                                               |
 | ------------------------------ | --------------------------------------------------------- |
 | `DEEPFENCE_CONSOLE_IP`         | Deepfence management console ip address                   |
-| `DEEPFENCE_DOCKER_PASSWORD`    | Deepfence docker hub username                             |
-| `DEEPFENCE_DOCKER_USERNAME`    | Deepfence docker hub password                             |
 | `FAIL_CVE_COUNT`               | Fail the build if number of vulnerabilities found >= this value. Set -1 to pass regardless of vulnerabilities.  |
 | `FAIL_CVE_SCORE`               | Fail the build if cumulative CVE score is >= this value. Set -1 to pass regardless of cve score.  |
 

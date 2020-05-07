@@ -8,9 +8,9 @@ The Deepfence Runtime Threat Mapper is a subset of the Deepfence cloud native wo
 
 2. ***Runtime Vulnerability Management***: Perform vulnerability scans on running containers & hosts as well as container images. 
 
-3. ***Container Registry Scanning***: Check for vulnerabilities in images stored on Docker private registry, AWS ECR, Azure Container Registry and Harbor registries. Support for more container registries including JFrog, Google container registrywill be added soon to the community edition.
+3. ***Container Registry Scanning***: Check for vulnerabilities in images stored on Docker hub, Docker private registry, AWS ECR, Azure Container Registry, Harbor, Google Container Registry, GitLab and JFrog container registries. 
 
-4. ***CI/CD Scanning***: Scan images as part of existing [CI/CD Pipelines] like CircleCI, Jenkins.
+4. ***CI/CD Scanning***: Scan images as part of existing [CI/CD Pipelines] like CircleCI, Jenkins & GitLab.
 
 5. ***Integrations with SIEM, Notification Channels & Ticketing***: Ready to use integrations with Slack, PagerDuty, HTTP endpoint, Jira, Splunk, ELK, Sumo Logic and Amazon S3.
 

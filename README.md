@@ -8,7 +8,7 @@ The Deepfence Runtime Threat Mapper is a subset of the Deepfence cloud native wo
 
 2. ***Runtime Vulnerability Management***: Perform vulnerability scans on running containers & hosts as well as container images. 
 
-3. ***Container Registry Scanning***: Check for vulnerabilities in images stored on Docker private registry, AWS ECR, Azure Container Registry and Harbor registries. Support for more container registries including JFrog, Google container registrywill be added soon to the community edition.
+3. ***Container Registry Scanning***: Check for vulnerabilities in images stored on AWS ECR, Azure Container Registry, Google Container Registry, Docker Hub, Docker Self-Hosted Private Registry, Quay, Harbor, Gitlab and JFrog registries. Support for more container registries including JFrog, Google container registrywill be added soon to the community edition.
 
 4. ***CI/CD Scanning***: Scan images as part of existing [CI/CD Pipelines] like CircleCI, Jenkins.
 
@@ -19,11 +19,7 @@ The Deepfence Runtime Threat Mapper is a subset of the Deepfence cloud native wo
 
 # Live Demo
 
-https://community.deepfence.show/
-
-Username: `community@deepfence.io`
-
-Password: `mzHAmWa!89zRD$KMIZ@ot4SiO` 
+https://deepfence.io/community-demo-form/
 
 # Contents
 
@@ -209,7 +205,7 @@ Optionally, users can tag a subset of nodes using user defined tags and scan a s
 
 ### Use Case - Registry Scanning
 
-You can scan for vulnerabilities in images stored in Docker private registry, AWS ECR, Azure Container Registry and Harbor from the registry scanning dashboard. First, you will need to click the "Add registry" button and add the credentials to populate available images. After that you can select the images to scan and click the scan button as shown the image below: 
+You can scan for vulnerabilities in images stored in AWS ECR, Azure Container Registry, Google Container Registry, Docker Hub, Docker Self-Hosted Private Registry, Quay, Harbor, Gitlab and JFrog from the registry scanning dashboard. First, you will need to click the "Add registry" button and add the credentials to populate available images. After that you can select the images to scan and click the scan button as shown the image below: 
 
 ![Registry Scanning](images/DF_RegistryScanning.png)
 
